@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"ie.gmit.dip","l":"ConsoleColour"},{"p":"ie.gmit.dip","l":"ParseGoogleWords"},{"p":"ie.gmit.dip","l":"ParseThesaurus"},{"p":"ie.gmit.dip","l":"Runner"},{"p":"ie.gmit.dip","l":"SentenceToStringRunner"},{"p":"ie.gmit.dip","l":"ThesaurusToGoogleWords"}]
