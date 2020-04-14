@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
 
 /**
 * The SentenceToStringRunner class turns a sentence into strings
@@ -42,9 +46,10 @@ public class SentenceToStringRunner {
 		
 	public void inputTransformed() throws IOException {
 		Scanner keyboard = new Scanner(System.in);
-    		myString = keyboard.next(); //word i key in
+    		myString = keyboard.nextLine(); //word i key in
+    		
 		    keyboard.close(); //closing scannner
-		    String[] str = myString.split("Dee"); //not sure why i do this, is this required?
+		    String[] str = myString.split("\\s+");
 		    for (String ss : str) {
 			    System.out.println(ss);
 		    		splitto=ss;
